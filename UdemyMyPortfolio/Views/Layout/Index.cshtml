@@ -12,7 +12,10 @@
 
         @await Component.InvokeAsync("_LayoutSidebarComponentPartial")
 
-        @RenderBody()
+        <div class="main-panel">
+            @RenderBody()
+
+        </div>
     </div>
 </body>
 ﻿
